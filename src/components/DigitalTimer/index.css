@@ -1,0 +1,134 @@
+.digital-timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
+  height: 100vh;
+}
+.digital-heading {
+  color: black;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+.timer-main-container {
+  display: flex;
+  justify-content: space-around;
+}
+.display-timer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  width: 280px;
+}
+.elapsed-time-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #ffffff;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+}
+.text-para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+.time-display {
+  padding-top: 20px;
+  font-size: 25px;
+  color: #00d9f5;
+}
+
+.start-pause-container {
+  display: flex;
+  flex-direction: row;
+}
+.start-img {
+  padding-top: 12px;
+  padding-right: 10px;
+  height: 32px;
+}
+.timer-label {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.timer-change-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.start-pause-btn {
+  background-color: transparent;
+  border: none;
+  display: flex;
+
+  cursor: pointer;
+}
+.reset-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.display-timer {
+  display: flex;
+  flex-direction: column;
+}
+
+.timer-limit-controller-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.limit-label {
+  font-family: 'roboto';
+  font-size: 12px;
+  font-weight: 600;
+}
+.timer-limit-controller {
+  display: flex;
+  align-items: center;
+}
+.limit-controller-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.limit-label-and-value-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px;
+}
+.limit-value {
+  color: black;
+  padding-top: 5px;
+  text-align: center;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #00f5a0, #00d9f5);
+  height: 30px;
+  width: 60px;
+}
